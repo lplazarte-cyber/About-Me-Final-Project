@@ -1,222 +1,200 @@
+
 :root {
-  font-size: 100%;
-  --ink: #24323d;
-  --muted-ink: #405363;
-  --accent: #8a4b20;
-  --paper: #fffaf0;
-  --panel: #ffffff;
-  --line: #dfc9a8;
+    font-size: 100%;
+    --ink: #24323d;
+    --muted-ink: #405363;
+    --accent: #8a4b20;
+    --paper: #fffaf0;
+    --panel: #ffffff;
+    --line: #dfc9a8;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  background-color: var(--paper);
-  color: var(--ink);
-  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-}
-
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 h1, h2, h3 {
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
-  line-height: 1.2;
+    line-height: 1.2;
 }
 
 h1 {
-  margin: 0 0 0.75rem;
-  padding: 2rem 1rem 0;
-  color: var(--accent);
-  font-size: 2.5rem;
-  letter-spacing: 0.08em;
-  text-align: center;
+    margin: 0 0 0.75rem;
+    padding: 2rem 1rem 0;
+    color: var(--accent);
+    font-size: 2.5rem;
+    letter-spacing: 0.08em;
+    text-align: center;
 }
 
 h2 {
-  margin: 0 0 1rem;
-  color: var(--accent);
-  font-size: 1.5rem;
-  letter-spacing: 0.04em;
-  text-align: center;
+    margin: 0 0 1rem;
+    color: var(--accent);
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    text-align: center;
 }
 
 h3 {
-  margin: 0 0 0.75rem;
-  font-size: 1.25rem;
-  text-align: center;
+    margin: 0 0 0.75rem;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
 p, li {
-  font-family: "Noto Sans", Arial, sans-serif;
+    font-family: "Noto Sans", Arial, sans-serif;
 }
 
 body > p {
-  margin-bottom: 1.5rem;
-  color: var(--muted-ink);
-  font-size: 1.125rem;
-  font-style: italic;
-  text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--muted-ink);
+    font-size: 1.125rem;
+    font-style: italic;
+    text-align: center;
 }
 
 section {
-  margin: 1.25rem 0;
-  padding: 1.75rem;
-  border: 0.0625rem solid var(--line);
-  border-radius: 0.75rem;
-  background-color: var(--panel);
+    margin: 1.25rem 0;
+    padding: 1.75rem;
+    border: 0.0625rem solid var(--line);
+    border-radius: 0.75rem;
+    background-color: var(--panel);
 }
 
 hr {
-  margin: 1.5rem 0 0;
-  border: 0;
-  border-top: 0.0625rem solid var(--line);
+    margin: 1.5rem 0 0;
+    border: 0;
+    border-top: 0.0625rem solid var(--line);
 }
 
 .about-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
 .about-content p {
-  flex: 1;
-  margin: 0;
+    flex: 1;
+    margin: 0;
 }
 
 .profile-photo {
-  display: block;
-  width: 15.625rem;
-  height: 15.625rem;
-  flex: 0 0 15.625rem;
-  border: 0.25rem solid #f1dfc6;
-  border-radius: 0.75rem;
-  object-fit: cover;
+    display: block;
+    width: 15.625rem;
+    height: 15.625rem;
+    flex: 0 0 15.625rem;
+    border: 0.25rem solid #f1dfc6;
+    border-radius: 0.75rem;
+    object-fit: cover;
 }
 
 ul {
-  width: fit-content;
-  margin: 0 auto;
-  padding: 0.25rem 0 0.25rem 1.5rem;
-  color: var(--muted-ink);
-  text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.25rem 0 0.25rem 1.5rem;
+    color: var(--muted-ink);
+    text-align: center;
 }
 
 .project-card {
-  margin: 1.25rem 0;
-  padding: 1.25rem;
-  border: 0.0625rem solid var(--line);
-  border-radius: 0.625rem;
-  background-color: var(--paper);
+    margin: 1.25rem 0;
+    padding: 1.25rem;
+    border: 0.0625rem solid var(--line);
+    border-radius: 0.625rem;
+    background-color: var(--paper);
+    text-align: center;
+}
+
+.project-card h3 {
+    color: var(--accent);
     text-align: center;
 }
 
 .project-card p {
-  text-align: center;
+    text-align: center;
 }
 
 .project-date {
-  color: var(--muted-ink);
-  font-size: 0.85rem;
-  text-align: center;
-}
-
-.project-card {
-  margin: 1.25rem 0;
-  padding: 1.25rem;
-  border: 0.0625rem solid var(--line);
-  border-radius: 0.625rem;
-  background-color: var(--paper);
-  text-align: center;
-}
-
-.project-card h3 {
-  color: var(--accent);
-  text-align: center;
-}
-
-.project-card p {
-  text-align: center;
-}
-
-.project-date {
-  color: var(--muted-ink);
-  font-size: 0.9rem;
-  text-align: center;
-}
-
+    color: var(--muted-ink);
+    font-size: 0.9rem;
+    text-align: center;
 }
 
 .project-photos {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .project-photo {
-  display: block;
-  width: min(100%, 18rem);
-  height: 18rem;
-  margin: 0 auto;
-  border: 0.2rem solid #f1dfc6;
-  border-radius: 0.625rem;
-  object-fit: cover;
+    display: block;
+    width: min(100%, 18rem);
+    height: 18rem;
+    margin: 0 auto;
+    border: 0.2rem solid #f1dfc6;
+    border-radius: 0.625rem;
+    object-fit: cover;
 }
 
 footer p {
-  color: var(--muted-ink);
-  text-align: center;
+    color: var(--muted-ink);
+    text-align: center;
 }
 
 @media (max-width: 600px) {
-  body {
-    padding: 1rem 0.75rem;
-  }
+    body {
+        padding: 1rem 0.75rem;
+    }
 
-  h1 {
-    padding-top: 1rem;
-    font-size: 2rem;
-  }
+    h1 {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
 
-  section {
-    padding: 1.25rem 1rem;
-  }
+    section {
+        padding: 1.25rem 1rem;
+    }
 
-  .about-content {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1.25rem;
-  }
+    .about-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.25rem;
+    }
 
-  .profile-photo {
-    width: min(100%, 15.625rem);
-    height: auto;
-    aspect-ratio: 1;
-    flex: auto;
-    align-self: center;
-  }
+    .profile-photo {
+        width: min(100%, 15.625rem);
+        height: auto;
+        aspect-ratio: 1;
+        flex: auto;
+        align-self: center;
+    }
 
-  .project-photos {
-    flex-direction: column;
-  }
+    .project-photos {
+        flex-direction: column;
+    }
 
-  .project-photo {
-    width: min(100%, 18rem);
-    height: auto;
-    aspect-ratio: 1;
-    align-self: center;
-  }
+    .project-photo {
+        width: min(100%, 18rem);
+        height: auto;
+        aspect-ratio: 1;
+        align-self: center;
+    }
 }
-  
+
 @media (max-width: 480px) {
     body {
         font-size: 14px;
